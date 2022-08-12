@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.apply {
-            pdfViewer.fromAsset("EP0100025096.pdf").load()
+            pdfViewer.fromAsset("Kotlin.pdf").load()
         }
 
 

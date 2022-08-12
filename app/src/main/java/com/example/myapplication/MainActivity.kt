@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
 
             val file = File(Environment.DIRECTORY_DOWNLOADS + "services.pdf")
-            pdfViewer.fromFile(file.path)
+            pdfViewer.fromFile(file)
                 //.enableSwipe(true)
                 //.enableDoubletap(true)
                 //.enableAnnotationRendering(false)
